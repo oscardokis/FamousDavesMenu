@@ -1,0 +1,368 @@
+{
+"starters":[
+  {
+    "title": "Wing Basket",
+    "subtitle": "Traditional or Boneless Wings",
+    "price": "$16.99",
+    "calories": "850-1130 Cal.",
+    "description": "Seasoned and tossed in your choice of sauce."
+  },
+  {
+    "title": "Burnt Ends",
+    "price": "$15.99",
+    "calories": "920 Cal.",
+    "description": "Tender pieces of Texas Beef Brisket seared and caramelized with Sweet & Zesty® BBQ sauce. Served with Onion Strings, jalapeño pickled red onions, and spicy Hell-Fire Pickles."
+  },
+  {
+    "title": "Chili Cheese Fries",
+    "price": "$13.99",
+    "calories": "850 Cal.",
+    "description": "Famous Fries covered with Dave’s Award-Winning Chili, melted cheddar cheese, and jalapeños."
+  },
+  {
+    "title": "Southside Rib Tips",
+    "price": "$16.99",
+    "calories": "1540 Cal.",
+    "description": "Memphis-Style dry-rubbed Rib Tips, jalapeño pickled red onions, spicy Hell-Fire Pickles, and our Southside BBQ sauce."
+  },
+  {
+    "title": "Cheese Curds",
+    "price": "$12.99",
+    "calories": "1260 Cal.",
+    "description": "Cheese Curds with Dave’s Ranch & Sassy Sauce."
+  },
+  {
+    "title": "Dave’s Sampler Platter",
+    "price": "$29.99",
+    "calories": "2550-3200 Cal.",
+    "description": "Southside Rib Tips, Chicken Tenders, Sweetwater Catfish Fingers, Onion Strings, and Traditional or Boneless Wings tossed in your choice of sauce."
+  },
+  {
+    "title": "Onion Strings",
+    "price": "$11.99",
+    "calories": "1940 Cal.",
+    "description": "Lightly breaded and flash-fried, served with remoulade sauce."
+  },
+  {
+    "title": "Sweetwater Catfish Fingers",
+    "price": "$14.99",
+    "calories": "760 Cal.",
+    "description": "Served with rémoulade sauce."
+  },
+  {
+    "title": "Chicken Strips",
+    "price": "$15.99",
+    "calories": "380 Cal.",
+    "description": ""
+  },
+  {
+    "title": "BBQ Nachos",
+    "price": "$16.99",
+    "calories": "1290-1410 Cal.",
+    "description": "Tortilla chips topped with cheddar cheese sauce, jalapeño, lettuce, tomatoes, sour cream, Dave’s Award-Winning Chili, and your choice of Texas Beef Brisket, Georgia Chopped Pork, or BBQ Pulled Chicken."
+  }
+],
+"salads":[
+  {
+    "title": "Dave’s Sassy BBQ Salad",
+    "price": "$17.99",
+    "calories": "660-770 Cal.",
+    "description": "Choice of Georgia Chopped Pork, Texas Beef Brisket, or Chicken (BBQ pulled, grilled, or crispy). Served with bacon, cheddar cheese, tomatoes, shoestring potatoes & honey BBQ dressing. Served with a Corn Bread Muffin (260 Cal.)."
+  },
+  {
+    "title": "Chicken Caesar Salad",
+    "price": "$17.99",
+    "calories": "740 Cal.",
+    "description": "Crisp romaine lettuce tossed in Caesar dressing, topped with grilled chicken breast. Served with a Corn Bread Muffin (260 Cal.)."
+  },
+  {
+    "title": "Side Salad",
+    "price": "$6.99",
+    "calories": "320 Cal. (Garden) / 290 Cal. (Caesar)",
+    "description": "Fresh Garden or Caesar."
+  }
+],
+"bowls":[
+  {
+    "title": "Dave’s BBQ Mac & Cheese Bowl",
+    "price": "$16.99",
+    "calories": "1170-1290 Cal.",
+    "description": "Mac & Cheese with corn, jalapeño, and topped with your choice of Georgia Chopped Pork, BBQ Pulled Chicken, or Texas Beef Brisket. Served with a Corn Bread Muffin (260 Cal.)."
+  },
+  {
+    "title": "Cup of Soup or Chili with Side Salad",
+    "price": "$12.99",
+    "calories": "550–700 Cal.",
+    "description": "Cup of Soup OR Chili with Side Salad. Served with a Corn Bread Muffin (260 Cal.)."
+  },
+  {
+    "title": "Dave’s Award-Winning Chili",
+    "options": [
+      {"title": "Cup", "calories": "260 Cal.", "price": "$6.99"},
+      {"title": "Bowl", "calories": "370 Cal.", "price": "$8.99"}
+    ],
+    "description": ""
+  },
+  {
+    "title": "Bacon Baked Potato Soup",
+    "options": [
+      {"title": "Cup", "calories": "260 Cal.", "price": "$6.99"},
+      {"title": "Bowl", "calories": "370 Cal.", "price": "$8.99"}
+    ],
+    "description": ""
+  }
+],
+"feasts":[  
+  {
+  "title": "All-American BBQ Feast",
+  "price": "$94.99",
+  "calories": "7480/7520 Cal.",
+  "description": "A full slab of St. Louis-Style Spareribs, a whole Country-Roasted Chicken, choice of Texas Beef Brisket or Georgia Chopped Pork, Creamy Coleslaw, Famous Fries, Wilbur Beans, Sweet Corn, and Corn Bread Muffins. Served family-style for 4-6 people."
+  },
+  {
+  "title": "Feast For 2",
+  "price": "$57.99",
+  "calories": "4170-4200 Cal.",
+  "description": "Generous helpings of St. Louis-Style Spareribs, Country-Roasted Chicken, choice of Texas Beef Brisket or Georgia Chopped Pork, Creamy Coleslaw, Famous Fries, Wilbur Beans, Sweet Corn, and Corn Bread Muffins. Served family-style for 2-3 people."
+  },
+  {
+  "title": "Founder’s Feast",
+  "price": "$31.99",
+  "calories": "2260/2330 Cal.",
+  "description": "Georgia Chopped Pork, ¼ Country-Roasted or BBQ Chicken, 3 St. Louis-Style Spareribs, Sweet Corn, Wilbur Beans, Creamy Coleslaw, Famous Fries, and a Corn Bread Muffin."
+}],
+"ribs":[
+    {
+      "title": "St. Louis-Style Spareribs",
+      "description": "Hand-rubbed with Dave’s secret blend of spices and pit-smoked for 3 - 4 hours over a smoldering hickory fire. Then slathered with Rich & Sassy® over an open flame to seal in the Famous flavor with a crispy caramelized coating.",
+      "options": [
+          {"title": "4 Bones", "calories": "630 Cal.", "price": "$21.99"},
+          {"title": "6 Bones", "calories": "930 Cal.", "price": "$25.99"},
+          {"title": "9 Bones", "calories": "1410 Cal.", "price": "$31.99"},
+          {"title": "12 Bones", "calories": "1880 Cal.", "price": "$35.99"}
+      ]
+    },
+    {
+      "title": "Baby Back Ribs",
+      "description": "Two slow-smoked options: Original style - Dave’s own rib rub and Sweet & Zesty® sauce or Memphis-Style - rubbed with a secret recipe of herbs and spices, hit with a vinegar mop and served naked.",
+      "options": [
+          {"title": "½ Baby", "calories": "590/610 Cal.", "price": "$25.99"},
+          {"title": "Big Baby", "calories": "1190/1230 Cal.", "price": "$35.99"}
+      ]
+    },
+    {
+        "title": "St. Louis-N-Baby Combo",
+        "price": "$36.99",
+        "description": "Create your own full slab. Pair any 2 of the following: 6 Bones St. Louis-Style Spareribs (930 Cal.), 1/2 slab Original Baby Backs (610 Cal.), 1/2 slab Memphis-Style Baby Backs (590 Cal.)."
+}],
+"bakedPotatoes":[
+    {
+      "title": "Broccoli & Cheese",
+      "price": "$11.99",
+      "calories": "760 Cal.",
+      "description":"Tender, fresh broccoli, cheddar cheese sauce, bacon, sour cream and whipped butter. "
+    },
+    {
+      "title": "BBQ",
+      "price": "$14.99",
+      "calories": "790-860 Cal.",
+      "description":"Choose from: Georgia Chopped Pork, BBQ Pulled Chicken or Texas Beef Brisket with cheddar cheese, bacon, sour cream and whipped butter."
+    }
+],
+"pitmasterFavorites":[
+  {
+      "title": "Georgia Chopped Pork",
+      "price": "$20.99",
+      "calories": "870 Cal.",
+      "description": "Smoked for up to 12 hours and chopped to order."
+  },
+  {
+      "title": "Texas Beef Brisket",
+      "price": "$24.99",
+      "calories": "790 Cal.",
+      "description": "Rubbed with Dave’s secret spices then slow-smoked over hickory until it’s juicy and tender."
+  },
+  {
+      "title": "Country-Roasted Chicken",
+      "price": "$20.99",
+      "calories": "650 Cal.",
+      "description": "Seasoned ½ chicken roasted & char-grilled to perfection."
+  },
+  {
+      "title": "BBQ Chicken",
+      "price": "$21.99",
+      "calories": "700 Cal.",
+      "description": "Seasoned ½ chicken flame-kissed and slathered with Rich & Sassy."
+  },
+  {
+      "title": "Southside Rib Tips",
+      "price": "$21.99",
+      "calories": "1450 Cal.",
+      "description": "Memphis-Style dry-rubbed tips. Served with a side of jalapeño pickled red onions, spicy Hell-Fire Pickles & our Southside BBQ sauce."
+  },
+  {
+      "title": "Chicken Strips",
+      "price": "$20.99",
+      "calories": "720 Cal.",
+      "description": "Tossed in Dave’s special seasoning."
+  },
+  {
+      "title": "Traditional or Boneless Wings",
+      "price": "$22.99",
+      "calories": "630-750 Cal.",
+      "description": "Seasoned and tossed in your choice of sauce."
+  },
+  {
+      "title": "Cedar Plank Salmon",
+      "price": "$23.99",
+      "calories": "220 Cal.",
+      "description": "Grilled, glazed & caramelized on a smoldering cedar plank."
+  },
+  {
+      "title": "Sweetwater Catfish Fingers",
+      "price": "$20.99",
+      "calories": "830 Cal.",
+      "description": "Lightly breaded with Cajun-seasoned cornmeal and flash-fried, served with rémoulade sauce."
+}],
+"combos":[
+    {
+      "title": "2 Meat Combo",
+      "price": "$24.99",
+      "calories": "630-1860 Cal.",
+      "description": "Choose any two different meats from below."
+    },
+    {
+      "title": "3 Meat Combo",
+      "price": "$30.99",
+      "calories": "1040-2480 Cal.",
+      "description": "Choose any three different meats from below."
+    },
+    {
+      "title": "St. Louis Rib-N-Meat",
+      "price": "$27.99",
+      "calories": "960-1750 Cal.",
+      "description": "4 bones of St. Louis-Style Spareribs and choice of 1 meat selection."
+    },
+    {
+      "title": "Baby Back-N-Meat",
+      "price": "$31.99",
+      "calories": "920-1730 Cal.",
+      "description": "A ½ slab of baby backs and choice of 1 meat selection."
+    },
+    {
+      "title": "Burnt Ends-N-Ribs",
+      "price": "$29.99",
+      "calories": "1280 Cal.",
+      "description": "Burnt Ends paired with 4 bones of St. Louis-Style Spareribs."
+    }
+],
+"desserts":[
+    {
+      "title": "Dave’s Award-Winning Bread Pudding",
+      "price": "$10.99",
+      "calories": "1390 Cal.",
+      "description": "A dessert classic."
+    },
+    {
+      "title": "Chocolate Cookies & Cream Cake",
+      "price": "$10.99",
+      "calories": "1020 Cal.",
+      "description": "Rich chocolate cake with cookies & cream filling."
+    },
+    {
+      "title": "Dave’s Famous Sundae",
+      "price": "$7.99",
+      "calories": "1040/1070 Cal.",
+      "description": "Vanilla ice cream topped with hot fudge or caramel."
+    },
+    {
+      "title": "Hot Fudge Brownie",
+      "price": "$9.99",
+      "calories": "1190 Cal.",
+      "description": "Warm brownie with vanilla ice cream and hot fudge."
+    },
+    {
+      "title": "NY Cheesecake",
+      "price": "$10.99",
+      "calories": "960 Cal.",
+      "description": "Classic New York-style cheesecake."
+    }
+],
+"burgers": [
+  {
+      "title": "Dave’s Favorite",
+      "calories": "850 Cal.",
+      "price": "$17.99",
+      "description": "Slathered with Rich & Sassy® and topped with melted Monterey Jack cheese and bacon."
+  },
+  {
+      "title": "Devil’s Spit®",
+      "calories": "880 Cal.",
+      "price": "$17.99",
+      "description": "Devil’s Spit® BBQ sauce topped with melted pepper-Jack cheese, bacon, and spicy Hell-Fire Pickles."
+  },
+  {
+      "title": "Ultimate",
+      "calories": "1020 Cal.",
+      "price": "$18.99",
+      "description": "Georgia Chopped Pork, bacon, sharp American cheese, and our signature Sweet & Zesty BBQ sauce."
+  }
+],
+"sandwiches": [
+  {
+      "title": "Georgia Chopped Pork",
+      "calories": "690 Cal.",
+      "price": "$16.99",
+      "description": "Slow-smoked chopped pork topped with Rich & Sassy®."
+  },
+  {
+      "title": "Texas Beef Brisket",
+      "calories": "640 Cal.",
+      "price": "$18.99",
+      "description": "Hand-seasoned hickory-smoked Texas Beef Brisket."
+  },
+  {
+      "title": "BBQ Pulled Chicken",
+      "calories": "640 Cal.",
+      "price": "$16.99",
+      "description": "Roasted pulled chicken tossed in Rich & Sassy® and topped with melted Monterey Jack cheese."
+  },
+  {
+      "title": "The Manhandler",
+      "calories": "780/790 Cal.",
+      "price": "$18.99",
+      "description": "Choice of Texas Beef Brisket or Georgia Chopped Pork piled high with Hot Link Sausage and topped with spicy Hell-Fire Pickles."
+  },
+  {
+      "title": "Cajun Chicken",
+      "calories": "1250 Cal.",
+      "price": "$16.99",
+      "description": "Grilled Cajun-seasoned chicken topped with pepper-Jack cheese, fried Onion Strings, & rémoulade sauce."
+  },
+  {
+      "title": "Hickory Chicken",
+      "calories": "680 Cal.",
+      "price": "$16.99",
+      "description": "Marinated grilled chicken breast topped with Monterey Jack cheese and bacon."
+  },
+  {
+      "title": "Grilled Chicken",
+      "calories": "430 Cal.",
+      "price": "$14.99",
+      "description": "Marinated grilled chicken breast grilled to perfection."
+  }
+],
+"sides":[
+  {"title": "Wilbur Beans", "calories": "180 Cal.", "price": "$4.49"},
+  {"title": "Sweet Corn", "calories": "130 Cal.", "price": "$4.49"},
+  {"title": "Garlic Red-Skin Mashed Potatoes", "calories": "100 Cal.", "price": "$4.49"},
+  {"title": "Potato Salad", "calories": "130 Cal.", "price": "$4.49"},
+  {"title": "Fresh Steamed Broccoli", "calories": "70 Cal.", "price": "$4.49"},
+  {"title": "Creamy Coleslaw", "calories": "200 Cal.", "price": "$4.49"},
+  {"title": "Famous Fries", "calories": "350 Cal.", "price": "$4.49"},
+  {"title": "Loaded Baked Potato", "calories": "730 Cal.", "price": "Add $4.99"},
+  {"title": "Side Salad", "calories": "320 Cal.", "price": "Add $4.99"},
+  {"title": "Dave’s Award-Winning Chili", "calories": "490 Cal.", "price": "Add $4.99"},
+  {"title": "Dave’s Cheesy Mac & Cheese", "calories": "150 Cal.", "price": "Add $0.99"}
+  ]
+}
