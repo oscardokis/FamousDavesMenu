@@ -17,6 +17,7 @@ import BakedPotato from './BakedPotato.jsx'
 import Bowls from './Bowls.jsx'
 import NotFound from './NotFound.jsx'
 import NavBar from './NavBar.jsx'
+import Footer from './Footer.jsx'
 
 const AppRoutes = () => {
   let routes = useRoutes([
@@ -45,7 +46,10 @@ function App() {
       <MenuProvider>
         <SmokeBg />
         <NavBar/>
-        <AppRoutes />
+        <div className='flex flex-col min-h-screen'>
+          <AppRoutes />
+          <Footer />
+        </div>
       </MenuProvider>
     </BrowserRouter>
   )

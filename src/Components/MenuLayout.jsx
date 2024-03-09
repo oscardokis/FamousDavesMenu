@@ -1,10 +1,13 @@
 
-function MenuLayout({ menuFilter, title }) {
+function MenuLayout({ menuFilter, title, meats }) {
 
 
   return (
-    <div className='flex flex-col justify-center items-center p-3 m-auto mt-24'>
+    <div className='flex flex-col items-center p-3 mt-24 flex-grow'>
     <h2 className='font-bold text-center text-2xl mb-3 text-white'>{title}</h2>
+    {meats && <ul className="grid sm:grid-cols-3 grid-cols-2 gap-3 items-center">{meats.map((meat, index) => (
+      <li key={index} className='text-white h-12'>{meat.title} </li>
+    ))}</ul>}
     <ul className='text-white flex flex-col justify-center w-full max-w-5xl'>
     {menuFilter.map((dave, index) =>(
         <li key={index} className='flex flex-col gap-1 hover:bg-white hover:text-black p-3 hover:rounded-3xl hover:cursor-pointer'>

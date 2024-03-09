@@ -9,7 +9,7 @@ function NavBar() {
       <Link to='/'>
         {isMenuActivate && <
           figure 
-            className="flex justify-center items-center mx-auto h-10 w-10 absolute top-1/2 -translate-y-1/2 left-3 lg:left-1/4 -translate-x-1/4">
+            className="flex justify-center items-center mx-auto h-10 w-10 absolute top-1/2 -translate-y-1/2 left-6 xl:left-1/4 -translate-x-1/2">
           <img className="w-full aspect-square" src="../backLeft.svg" alt="Logo of Fameus Daves" />
         </figure>}
         <figure className="flex justify-center items-center mx-auto h-20 w-20">
