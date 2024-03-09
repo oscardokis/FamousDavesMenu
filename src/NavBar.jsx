@@ -11,14 +11,22 @@ function NavBar() {
       {isMenuActivate && 
         <Link to='/'>
           <figure 
-            className="flex justify-center items-center mx-auto h-10 w-10 absolute top-1/2 -translate-y-1/2 left-6 lg:left-1/4 -translate-x-1/2">
+            className="flex justify-center items-center mx-auto h-10 w-10 absolute top-1/2 -translate-y-1/2 left-6 xl:left-1/4 -translate-x-1/2">
             <img className="w-full aspect-square" src="../backLeft.svg" alt="Logo of Fameus Daves" />
           </figure>
         </Link>
       }
-        <figure className="flex justify-center items-center mx-auto h-20 w-20 cursor-pointer" onClick={mainFamousDavesPage}>
+    <div className='flex items-center w-full justify-center px-3 gap-3 md:gap-6 max-w-5xl'>
+    <Link to='/' className='flex-1 text-center'>
+          <span className='text-white font-semibold text-md'>MENU</span>
+        </Link>
+        <figure className="flex justify-center items-center cursor-pointer w-20" onClick={mainFamousDavesPage}>
           <img className="w-full aspect-square" src="../logo.svg" alt="Logo of Fameus Daves" />
         </figure>
+        <button className='flex-1 text-center' onClick={mainFamousDavesPage}>
+          <span className='text-white font-semibold text-md'>WISCONSIN DELLS</span>
+        </button>
+    </div>
     </div>
   )
 }
