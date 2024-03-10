@@ -18,13 +18,13 @@ function NavBar() {
       }
     <div className='flex items-center w-full justify-center px-3 gap-3 md:gap-6 max-w-5xl'>
     <Link to='/' className='flex-1 text-center'>
-          <span className='text-white font-semibold text-md'>MENU</span>
+          <span className='text-white font-semibold text-md hover:underline hover:underline-offset-4'>MENU</span>
         </Link>
         <figure className="flex justify-center items-center cursor-pointer w-20" onClick={mainFamousDavesPage}>
           <img className="w-full aspect-square" src="../logo.svg" alt="Logo of Fameus Daves" />
         </figure>
         <button className='flex-1 text-center' onClick={mainFamousDavesPage}>
-          <span className='text-white font-semibold text-md'>WISCONSIN DELLS</span>
+          <span className='text-white font-semibold text-md hover:underline hover:underline-offset-4'>WISCONSIN DELLS</span>
         </button>
     </div>
     </div>
