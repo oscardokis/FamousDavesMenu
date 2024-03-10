@@ -1,5 +1,9 @@
-
+import { useNavigate } from "react-router-dom";
 function MenuLayout({ menuFilter, title, meats, titleInfo }) {
+  const navigate = useNavigate();
+  const handleMenuSides = () => {
+    navigate("/Sides");
+  }
   return (
 
     <div className='flex flex-col items-center p-3 mt-24 flex-grow'>
@@ -41,6 +45,7 @@ function MenuLayout({ menuFilter, title, meats, titleInfo }) {
     {titleInfo && 
       <button 
         className="text-white p-3 font-semibold hover:underline hover:underline-offset-4"
+        onClick={() => handleMenuSides()}
         >SIDES</button>}
     </div>
   )
