@@ -6,7 +6,8 @@ function Ribs() {
 
   return (
     <MenuLayout
-      menuFilter={fameusDaves.ribs}
+      menuFilter={fameusDaves.ribs.itemsMenu}
+      titleInfo= {fameusDaves.ribs.information}
       title='-AWARD-WINNING RIBS-'
     >
     </MenuLayout>

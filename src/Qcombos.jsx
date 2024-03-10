@@ -5,7 +5,8 @@ function Qcombos() {
 
   return (
     <MenuLayout
-      menuFilter={fameusDaves.qcombos.combos}
+      menuFilter={fameusDaves.qcombos.itemsMenu}
+      titleInfo= {fameusDaves.qcombos.information}
       title='-`Q COMBOS-'
       meats={fameusDaves.qcombos.meats}
     >

@@ -46,7 +46,7 @@ function App() {
       <MenuProvider>
         <SmokeBg />
         <NavBar/>
-        <div className='flex flex-col min-h-screen'>
+        <div className='flex flex-col min-h-screen justify-center '>
           <AppRoutes />
           <Footer />
         </div>

@@ -4,7 +4,8 @@ function Sandwiches() {
 
   return (
     <MenuLayout
-      menuFilter={fameusDaves.sandwiches}
+      menuFilter={fameusDaves.sandwiches.itemsMenu}
+      titleInfo= {fameusDaves.sandwiches.information}
       title='-SIGNATURE SANDWICHES-'
     >
     </MenuLayout>

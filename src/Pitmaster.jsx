@@ -5,7 +5,8 @@ function Pitmaster() {
 
   return (
     <MenuLayout
-      menuFilter={fameusDaves.pitmasterFavorites}
+      menuFilter={fameusDaves.pitmasterFavorites.itemsMenu}
+      titleInfo= {fameusDaves.pitmasterFavorites.information}
       title='-PITMASTER FAVORITES-'
     >
     </MenuLayout>

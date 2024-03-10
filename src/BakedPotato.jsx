@@ -4,7 +4,8 @@ function BakedPotato() {
 
   return (
     <MenuLayout
-      menuFilter={fameusDaves.bakedPotatoes}
+      menuFilter={fameusDaves.bakedPotatoes.itemsMenu}
+      titleInfo= {fameusDaves.bakedPotatoes.information}
       title='-STUFEED BAKED POTATOES-'
     >
     </MenuLayout>

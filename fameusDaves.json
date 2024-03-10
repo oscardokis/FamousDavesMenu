@@ -131,7 +131,9 @@
   "calories": "2260/2330 Cal.",
   "description": "Georgia Chopped Pork, ¼ Country-Roasted or BBQ Chicken, 3 St. Louis-Style Spareribs, Sweet Corn, Wilbur Beans, Creamy Coleslaw, Famous Fries, and a Corn Bread Muffin."
 }],
-"ribs":[
+"ribs":{
+  "information":"Served with choice of 2 sides (70-700 Cal.) and a Corn Bread Muffin (260 Cal).",
+  "itemsMenu":[
     {
       "title": "St. Louis-Style Spareribs",
       "description": "Hand-rubbed with Dave’s secret blend of spices and pit-smoked for 3 - 4 hours over a smoldering hickory fire. Then slathered with Rich & Sassy® over an open flame to seal in the Famous flavor with a crispy caramelized coating.",
@@ -154,8 +156,11 @@
         "title": "St. Louis-N-Baby Combo",
         "price": "$36.99",
         "description": "Create your own full slab. Pair any 2 of the following: 6 Bones St. Louis-Style Spareribs (930 Cal.), 1/2 slab Original Baby Backs (610 Cal.), 1/2 slab Memphis-Style Baby Backs (590 Cal.)."
-}],
-"bakedPotatoes":[
+}]
+},
+"bakedPotatoes":{
+  "information":"Served with choice of 1 sides (70-350 Cal.) and a Corn Bread Muffin (260 Cal.).",
+  "itemsMenu":[
     {
       "title": "Broccoli & Cheese",
       "price": "$11.99",
@@ -167,76 +172,80 @@
       "price": "$14.99",
       "calories": "790-860 Cal.",
       "description":"Choose from: Georgia Chopped Pork, BBQ Pulled Chicken or Texas Beef Brisket with cheddar cheese, bacon, sour cream and whipped butter."
-    }
-],
-"pitmasterFavorites":[
-  {
-      "title": "Georgia Chopped Pork",
-      "price": "$20.99",
-      "calories": "870 Cal.",
-      "description": "Smoked for up to 12 hours and chopped to order."
+    }]
   },
-  {
-      "title": "Texas Beef Brisket",
-      "price": "$24.99",
-      "calories": "790 Cal.",
-      "description": "Rubbed with Dave’s secret spices then slow-smoked over hickory until it’s juicy and tender."
-  },
-  {
-      "title": "Country-Roasted Chicken",
-      "price": "$20.99",
-      "calories": "650 Cal.",
-      "description": "Seasoned ½ chicken roasted & char-grilled to perfection."
-  },
-  {
-      "title": "BBQ Chicken",
-      "price": "$21.99",
-      "calories": "700 Cal.",
-      "description": "Seasoned ½ chicken flame-kissed and slathered with Rich & Sassy."
-  },
-  {
-      "title": "Southside Rib Tips",
-      "price": "$21.99",
-      "calories": "1450 Cal.",
-      "description": "Memphis-Style dry-rubbed tips. Served with a side of jalapeño pickled red onions, spicy Hell-Fire Pickles & our Southside BBQ sauce."
-  },
-  {
-      "title": "Chicken Strips",
-      "price": "$20.99",
-      "calories": "720 Cal.",
-      "description": "Tossed in Dave’s special seasoning."
-  },
-  {
-      "title": "Traditional or Boneless Wings",
-      "price": "$22.99",
-      "calories": "630-750 Cal.",
-      "description": "Seasoned and tossed in your choice of sauce."
-  },
-  {
-      "title": "Cedar Plank Salmon",
-      "price": "$23.99",
-      "calories": "220 Cal.",
-      "description": "Grilled, glazed & caramelized on a smoldering cedar plank."
-  },
-  {
-      "title": "Sweetwater Catfish Fingers",
-      "price": "$20.99",
-      "calories": "830 Cal.",
-      "description": "Lightly breaded with Cajun-seasoned cornmeal and flash-fried, served with rémoulade sauce."
-}],
+"pitmasterFavorites":{
+  "information":"Served with choice of 2 sides (70-700 Cal.) and a Corn Bread Muffin (260 Cal).",
+  "itemsMenu":[
+    {
+        "title": "Georgia Chopped Pork",
+        "price": "$20.99",
+        "calories": "870 Cal.",
+        "description": "Smoked for up to 12 hours and chopped to order."
+    },
+    {
+        "title": "Texas Beef Brisket",
+        "price": "$24.99",
+        "calories": "790 Cal.",
+        "description": "Rubbed with Dave’s secret spices then slow-smoked over hickory until it’s juicy and tender."
+    },
+    {
+        "title": "Country-Roasted Chicken",
+        "price": "$20.99",
+        "calories": "650 Cal.",
+        "description": "Seasoned ½ chicken roasted & char-grilled to perfection."
+    },
+    {
+        "title": "BBQ Chicken",
+        "price": "$21.99",
+        "calories": "700 Cal.",
+        "description": "Seasoned ½ chicken flame-kissed and slathered with Rich & Sassy."
+    },
+    {
+        "title": "Southside Rib Tips",
+        "price": "$21.99",
+        "calories": "1450 Cal.",
+        "description": "Memphis-Style dry-rubbed tips. Served with a side of jalapeño pickled red onions, spicy Hell-Fire Pickles & our Southside BBQ sauce."
+    },
+    {
+        "title": "Chicken Strips",
+        "price": "$20.99",
+        "calories": "720 Cal.",
+        "description": "Tossed in Dave’s special seasoning."
+    },
+    {
+        "title": "Traditional or Boneless Wings",
+        "price": "$22.99",
+        "calories": "630-750 Cal.",
+        "description": "Seasoned and tossed in your choice of sauce."
+    },
+    {
+        "title": "Cedar Plank Salmon",
+        "price": "$23.99",
+        "calories": "220 Cal.",
+        "description": "Grilled, glazed & caramelized on a smoldering cedar plank."
+    },
+    {
+        "title": "Sweetwater Catfish Fingers",
+        "price": "$20.99",
+        "calories": "830 Cal.",
+        "description": "Lightly breaded with Cajun-seasoned cornmeal and flash-fried, served with rémoulade sauce."
+  }]
+},
 "qcombos":{
-  "combos":[
+  "information":"Served with choice of 2 sides (70-700 Cal.) and a Corn Bread Muffin (260 Cal).",
+  "itemsMenu":[
     {
       "title": "2 Meat Combo",
       "price": "$24.99",
       "calories": "630-1860 Cal.",
-      "description": "Choose any two different meats from below."
+      "description": "Choose any two different meats from above."
     },
     {
       "title": "3 Meat Combo",
       "price": "$30.99",
       "calories": "1040-2480 Cal.",
-      "description": "Choose any three different meats from below."
+      "description": "Choose any three different meats from above."
     },
     {
       "title": "St. Louis Rib-N-Meat",
@@ -256,17 +265,17 @@
       "calories": "1280 Cal.",
       "description": "Burnt Ends paired with 4 bones of St. Louis-Style Spareribs."
     }
-],
-"meats":[
+  ],
+  "meats":[
   {"title": "Country-Roasted Chicken"},
   {"title": "Georgia Chopped Pork"},
   {"title": "Southside Rib Tips"},
   {"title": "Sweetwater Catfish Fingers"},
   {"title": "BBQ Chicken"},
-  {"title": "Traditional or Boneless Wings"},
   {"title": "Chicken Strips"},
+  {"title": "Traditional or Boneless Wings"},
   {"title": "Texas Beef Brisket (Add $2.00)"}
-]
+  ]
 },
 "desserts":[
     {
@@ -300,7 +309,9 @@
       "description": "Classic New York-style cheesecake."
     }
 ],
-"burgers": [
+"burgers":{
+  "information":"Served with choice of 1 sides (70-350 Cal), lettuce, tomato and spicy Hell-Fire Pickles.",
+  "itemsMenu":[
   {
       "title": "Dave’s Favorite",
       "calories": "850 Cal.",
@@ -319,8 +330,11 @@
       "price": "$18.99",
       "description": "Georgia Chopped Pork, bacon, sharp American cheese, and our signature Sweet & Zesty BBQ sauce."
   }
-],
-"sandwiches": [
+  ]
+},
+"sandwiches":{
+  "information":"Served with choice of 1 sides (70-350 Cal.) and spicy Hell-Fire Pickles. Try it 'Memphis-Style' and we`ll top your 'Q sandwich with Creamy Coleslaw for just $0.99 (add 50 Cal).",
+  "itemsMenu":[
   {
       "title": "Georgia Chopped Pork",
       "calories": "690 Cal.",
@@ -363,7 +377,8 @@
       "price": "$14.99",
       "description": "Marinated grilled chicken breast grilled to perfection."
   }
-],
+  ]
+},
 "sides":[
   {"title": "Wilbur Beans", "calories": "180 Cal.", "price": "$4.49"},
   {"title": "Sweet Corn", "calories": "130 Cal.", "price": "$4.49"},
