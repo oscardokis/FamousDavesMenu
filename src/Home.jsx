@@ -19,12 +19,12 @@ export const Home = () => {
   ]
   return (
     <Layout>
-      <div className='flex justify-center items-center flex-wrap gap-6 max-w-7xl md:gap-3 mb-6 text-white w-full h-full md:justify-items-center'>
+      <div className='flex justify-center items-center flex-wrap gap-3 max-w-7xl md:gap-3 mb-6 text-white w-full h-full md:justify-items-center'>
         {menuItmes.map((item, index) => (
           <Link 
             to={item.to}
             key={index}
-            className='w-full bg-[#571412] relative max-w-sm'>
+            className='w-full bg-[#571412] relative max-w-md sm:max-w-sm'>
             <img className='w-full object-cover aspect-video opacity-70' src={item.img} alt={item.alt} 
             onLoad={() => setImageLoaded(true)}/>
             {imageLoaded && <h2 
