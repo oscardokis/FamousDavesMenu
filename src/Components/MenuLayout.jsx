@@ -44,7 +44,7 @@ function MenuLayout({ menuFilter, title, meats, titleInfo }) {
     </ul>
     {titleInfo && 
       <button 
-        className="text-white p-3 font-semibold hover:underline hover:underline-offset-4"
+        className="text-white p-3 font-semibold hover:underline hover:underline-offset-4 hover:text-black hover:bg-white hover:rounded-3xl hover:cursor-pointer w-36"
         onClick={() => handleMenuSides()}
         >SIDES</button>}
     </div>
