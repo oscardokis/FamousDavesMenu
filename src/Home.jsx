@@ -1,14 +1,13 @@
 import { Link } from 'react-router-dom'
 import Layout from './Components/Layout'
-import { useContext, useState } from 'react';
-import { MenuContext } from './Context';
+import { useState } from 'react'
+import menuItems  from '../menuItems.json'
 export const Home = () => {
   const [imageLoaded, setImageLoaded] = useState(false);
-  const {memoizedItemsMenu} = useContext(MenuContext);
   return (
     <Layout>
       <div className='flex justify-center items-center flex-wrap gap-3 max-w-7xl md:gap-3 mb-6 text-white w-full h-full md:justify-items-center'>
-        {memoizedItemsMenu.map((item, index) => (
+        {menuItems.map((item, index) => (
           <Link 
             to={item.to}
             key={index}
